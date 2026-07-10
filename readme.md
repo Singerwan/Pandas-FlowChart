@@ -19,8 +19,8 @@
     E[(SQLDB)]-->H[\df tabular data structure/];
     F[list tuple dict np.arr]-->H[\df tabular data structure/];
     G[lists np.arrs matrix,dict ]-->H[\df tabular data structure/];
-    H[\df tabular data structure/]--<span style="font-size:30px;background-color:SILVER">&nbsp;👀&nbsp;</span><BR>summary-->J[summary or snippet ];
-    J[summary or snippet ]--summary-->N[df.inf. df.describe.sum.median.mode.count.value_counts<span style="background-color:cyan;color:magenta">df.transform.agg</span>];
+    H[\df tabular data structure/]---->J[summary or snippet ];
+    J[summary or snippet ]--summary-->N[df.inf. df.describe.sum.median.mode.count.value_counts;
     style H fill: #12ef12, stroke: #0deb57,color: #0a0af8 
     J[summary or snippet ]--snippet-->O[df.head df.tail];    
     H[\df tabular data structure/]--<span style="font-size:30px;background-color:grey">🖉📖</span><br>UPDATE-->K[existing or new];
