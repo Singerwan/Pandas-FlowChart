@@ -1,14 +1,4 @@
 ::: mermaid
----
-config:
-  theme: base
-  themeVariables:
-    primaryColor: "#f5f0ff"
-    primaryTextColor: "#1e1b4b"
-    primaryBorderColor: "#4f46e5"
-    lineColor: "#6366f1"
-    fontSize: "16px"
----
 flowchart TB
     0>❔ data existed or not] --|✅|--> B[IMPORT in to pandas];
     style 0 fill: #151514, stroke: #0deb57,color: #cee921
