@@ -25,10 +25,6 @@
     J[summary or snippet ]--snippet-->O[df.head df.tail];    
     H[\df tabular data structure/]---->K[existing or new];
     K[existing or new]--exist-->S[remove or replace na duplicate replace strip];
-    style S fill: #4b504b, stroke: #0deb57,color: #eeeefa 
-    style K fill: #9aa99a, stroke: #0deb57,color: #191958  
-    style R fill: #9aa99a, stroke: #0deb57,color: #1e1b4b  
-    style Q fill: #cad4c9, stroke: #0deb57,color: #efeef3  
     K[existing or new]--new-->T[column locrow ];    
     H[\df tabular data structure/]---->L[expand or contract];
     L[expand or contract]---->Q[df.groupby stack <br>pivot crosstab];
