@@ -23,16 +23,16 @@
     J[summary or snippet ]--summary-->N[df.inf. df.describe.sum.median.mode.count.value_counts;
     style H fill: #12ef12, stroke: #0deb57,color: #0a0af8 
     J[summary or snippet ]--snippet-->O[df.head df.tail];    
-    H[\df tabular data structure/]--<span style="font-size:30px;background-color:grey">🖉📖</span><br>UPDATE-->K[existing or new];
+    H[\df tabular data structure/]---->K[existing or new];
     K[existing or new]--exist-->S[remove or replace na duplicate replace strip];
     style S fill: #4b504b, stroke: #0deb57,color: #eeeefa 
     style K fill: #9aa99a, stroke: #0deb57,color: #191958  
     style R fill: #9aa99a, stroke: #0deb57,color: #1e1b4b  
     style Q fill: #cad4c9, stroke: #0deb57,color: #efeef3  
     K[existing or new]--new-->T[column locrow ];    
-    H[\df tabular data structure/]--<span style="font-size:30px;background-color:cyan">🔢↔🆎</span><br>|reshape|-->L[expand💠 or contract🔹];
-    L[expand or contract]--<span style="font-size:30px;background-color:cyan">🔹</span>-->Q[df.groupby stack <br>pivot crosstab];
-    L[expand or contract]--<span style="font-size:30px;background-color:red">💠</span>-->R[unstack melt explode <br>join merge concat];    
+    H[\df tabular data structure/]---->L[expand or contract];
+    L[expand or contract]---->Q[df.groupby stack <br>pivot crosstab];
+    L[expand or contract]---->R[unstack melt explode <br>join merge concat];    
     style L fill: #33d028, stroke: #0deb57,color: #1e1b4b 
     style R fill: #9aa99a, stroke: #0deb57,color: #1e1b4b  
     style Q fill: #b9e0b6, stroke: #0deb57,color: #1e1b4b   
