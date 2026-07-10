@@ -1,15 +1,15 @@
 ```mermaid
-    0>❔ data existed or not] --|✅|--> B[IMPORT in to pandas];
+    0> data existed or not] --|yes|--> B[IMPORT in to pandas];
     style 0 fill: #151514, stroke: #0deb57,color: #cee921
     B[IMPORT in to pandas]--|pd.read|-->C[𝄜 ☷ '< / >'];
-    C[𝄜 ☷ '< / >']-->a(((<span style="font-size:30px">📅</span>datetime)));;
+    C[𝄜 ☷ '< / >']-->a(((📅datetime)));;
     style a fill: #e6dadac3, stroke: #0deb80,color: #ee160f
-    H[\df tabular data structure/]-->a(((<span style="font-size:30px">📅</span>datetime)));
+    H[\df tabular data structure/]-->a(((📅datetime)));
     style C fill: #7ea77d, stroke: #0deb57,color: #1e1b4b
     B[IMPORT in to pandas]--|connector|-->E[(SQLDB)];
     style E fill: #148612, stroke: #0deb57,color: #1e1b4b
     style B fill: #74f816, stroke: #eb410d,color: #1e1b4b
-     0>❔ data existed or not]  --|❌|--> D[create from scratch];
+     0> data existed or not]  --no|--> D[create from scratch];
     style D fill: #f53d0b, stroke: #0deb57,color: #1e1b4b
     D[create from scratch]--|Series.to_df|-->F[list tuple dict np.arr];
     style F fill: #d6a597, stroke: #0deb57,color: #1e1b4b
