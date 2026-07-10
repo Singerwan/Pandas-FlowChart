@@ -1,5 +1,7 @@
---- mermaid
-flowchart TB
-    A--->B;
-    B--->C;
----
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
