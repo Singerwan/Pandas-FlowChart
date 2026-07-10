@@ -1,9 +1,8 @@
 ```mermaid
     0> data existed or not] --|yes|--> B[IMPORT in to pandas];
     style 0 fill: #151514, stroke: #0deb57,color: #cee921
-    B[IMPORT in to pandas]--|pd.read|-->C[𝄜 ☷ '< / >'];
-    C[𝄜 ☷ '< / >']-->a(((datetime)));;
-    style a fill: #e6dadac3, stroke: #0deb80,color: #ee160f
+    B[IMPORT in to pandas]--|pd.read|-->C[];
+    C[]-->a(((datetime)));;
     H[\df tabular data structure/]-->a(((datetime)));
     style C fill: #7ea77d, stroke: #0deb57,color: #1e1b4b
     B[IMPORT in to pandas]--|connector|-->E[(SQLDB)];
